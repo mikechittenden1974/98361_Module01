@@ -6,7 +6,15 @@ namespace for_Statement
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ForTest();
+        }
+
+        private static void ForTest()
+        {
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine("The value of i is {0}", i);
+            }
         }
     }
 }
